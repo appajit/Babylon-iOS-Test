@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2693C9C86B8BF2B5BB33E2B6 /* libPods-BabylonTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FE8324F906791C0FF9C695 /* libPods-BabylonTest.a */; };
+		40215879A852072046550CAC /* libPods-BabylonTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC2E50C22E371D064FABC5A /* libPods-BabylonTestTests.a */; };
+		CB72D5BA1D226DCC00B777F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5B91D226DCC00B777F8 /* AppDelegate.m */; };
+		CB72D5BF1D226DDF00B777F8 /* PostsDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5BE1D226DDF00B777F8 /* PostsDataStore.m */; };
+		CB72D5C31D226DF100B777F8 /* PostsDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5C21D226DF100B777F8 /* PostsDataService.m */; };
+		CB72D5CD1D226DF800B777F8 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5C61D226DF800B777F8 /* Comment.m */; };
+		CB72D5CE1D226DF800B777F8 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5C81D226DF800B777F8 /* Post.m */; };
+		CB72D5CF1D226DF800B777F8 /* PostsDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5CA1D226DF800B777F8 /* PostsDataInfo.m */; };
+		CB72D5D01D226DF800B777F8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5CC1D226DF800B777F8 /* User.m */; };
+		CB72D5D61D226DFD00B777F8 /* PostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5D31D226DFD00B777F8 /* PostDetailViewController.m */; };
+		CB72D5D71D226DFD00B777F8 /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5D51D226DFD00B777F8 /* PostsViewController.m */; };
+		CB72D5DB1D226E0600B777F8 /* CustomActivityIndicarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5DA1D226E0600B777F8 /* CustomActivityIndicarView.m */; };
+		CB72D5DF1D226E5A00B777F8 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D5DE1D226E5A00B777F8 /* NetworkManager.m */; };
+		CB83E6271D22F4330084681A /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = CB83E6261D22F4330084681A /* posts.json */; };
+		CB83E6291D22F4470084681A /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = CB83E6281D22F4470084681A /* users.json */; };
+		CB83E62B1D22F4500084681A /* comments.json in Resources */ = {isa = PBXBuildFile; fileRef = CB83E62A1D22F4500084681A /* comments.json */; };
+		CB8851CE1D22E3A90026F263 /* PostsDataServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8851CD1D22E3A90026F263 /* PostsDataServiceTests.m */; };
+		CBA263431D23125600F4E375 /* PostsDataInfotests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA263421D23125600F4E375 /* PostsDataInfotests.m */; };
+		CBA263471D231EB700F4E375 /* PostModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA263461D231EB700F4E375 /* PostModelTests.m */; };
+		CBBC41461D1E93BA00F4B112 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBC41451D1E93BA00F4B112 /* main.m */; };
+		CBBC41521D1E93BA00F4B112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBC41501D1E93BA00F4B112 /* Main.storyboard */; };
+		CBBC41541D1E93BA00F4B112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBC41531D1E93BA00F4B112 /* Assets.xcassets */; };
+		CBBC41571D1E93BA00F4B112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBC41551D1E93BA00F4B112 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB8851D01D22E3A90026F263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBBC41391D1E93B900F4B112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBBC41401D1E93BA00F4B112;
+			remoteInfo = BabylonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B8257ED30F4419835727D12 /* Pods-BabylonTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabylonTest/Pods-BabylonTest.debug.xcconfig"; sourceTree = "<group>"; };
+		24FE8324F906791C0FF9C695 /* libPods-BabylonTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BabylonTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38561FF62E2CAEF67F8BC8FE /* Pods-BabylonTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabylonTestTests/Pods-BabylonTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FF96A6831D830717BBEDCAD /* Pods-BabylonTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabylonTest/Pods-BabylonTest.release.xcconfig"; sourceTree = "<group>"; };
+		9CC2E50C22E371D064FABC5A /* libPods-BabylonTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BabylonTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB72D5B81D226DCC00B777F8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB72D5B91D226DCC00B777F8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB72D5BD1D226DDF00B777F8 /* PostsDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsDataStore.h; sourceTree = "<group>"; };
+		CB72D5BE1D226DDF00B777F8 /* PostsDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsDataStore.m; sourceTree = "<group>"; };
+		CB72D5C11D226DF100B777F8 /* PostsDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsDataService.h; sourceTree = "<group>"; };
+		CB72D5C21D226DF100B777F8 /* PostsDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsDataService.m; sourceTree = "<group>"; };
+		CB72D5C51D226DF800B777F8 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		CB72D5C61D226DF800B777F8 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		CB72D5C71D226DF800B777F8 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		CB72D5C81D226DF800B777F8 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		CB72D5C91D226DF800B777F8 /* PostsDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsDataInfo.h; sourceTree = "<group>"; };
+		CB72D5CA1D226DF800B777F8 /* PostsDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsDataInfo.m; sourceTree = "<group>"; };
+		CB72D5CB1D226DF800B777F8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CB72D5CC1D226DF800B777F8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CB72D5D21D226DFD00B777F8 /* PostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDetailViewController.h; sourceTree = "<group>"; };
+		CB72D5D31D226DFD00B777F8 /* PostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDetailViewController.m; sourceTree = "<group>"; };
+		CB72D5D41D226DFD00B777F8 /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
+		CB72D5D51D226DFD00B777F8 /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
+		CB72D5D91D226E0600B777F8 /* CustomActivityIndicarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActivityIndicarView.h; sourceTree = "<group>"; };
+		CB72D5DA1D226E0600B777F8 /* CustomActivityIndicarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActivityIndicarView.m; sourceTree = "<group>"; };
+		CB72D5DD1D226E5A00B777F8 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		CB72D5DE1D226E5A00B777F8 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		CB83E6261D22F4330084681A /* posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		CB83E6281D22F4470084681A /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		CB83E62A1D22F4500084681A /* comments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comments.json; sourceTree = "<group>"; };
+		CB8851CB1D22E3A90026F263 /* BabylonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabylonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8851CD1D22E3A90026F263 /* PostsDataServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostsDataServiceTests.m; sourceTree = "<group>"; };
+		CB8851CF1D22E3A90026F263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA263421D23125600F4E375 /* PostsDataInfotests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsDataInfotests.m; sourceTree = "<group>"; };
+		CBA263461D231EB700F4E375 /* PostModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostModelTests.m; sourceTree = "<group>"; };
+		CBBC41411D1E93BA00F4B112 /* BabylonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabylonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBC41451D1E93BA00F4B112 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBBC41511D1E93BA00F4B112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBBC41531D1E93BA00F4B112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBBC41561D1E93BA00F4B112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBBC41581D1E93BA00F4B112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEBE5E48A1EED7E84DC3CA8 /* Pods-BabylonTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabylonTestTests/Pods-BabylonTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8851C81D22E3A90026F263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40215879A852072046550CAC /* libPods-BabylonTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBC413E1D1E93BA00F4B112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2693C9C86B8BF2B5BB33E2B6 /* libPods-BabylonTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C897BD75F29DA65E9E920E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24FE8324F906791C0FF9C695 /* libPods-BabylonTest.a */,
+				9CC2E50C22E371D064FABC5A /* libPods-BabylonTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A21D322069328D35FD35164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B8257ED30F4419835727D12 /* Pods-BabylonTest.debug.xcconfig */,
+				6FF96A6831D830717BBEDCAD /* Pods-BabylonTest.release.xcconfig */,
+				CFEBE5E48A1EED7E84DC3CA8 /* Pods-BabylonTestTests.debug.xcconfig */,
+				38561FF62E2CAEF67F8BC8FE /* Pods-BabylonTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB72D5B71D226DCC00B777F8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D5B81D226DCC00B777F8 /* AppDelegate.h */,
+				CB72D5B91D226DCC00B777F8 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CB72D5BC1D226DDF00B777F8 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D5BD1D226DDF00B777F8 /* PostsDataStore.h */,
+				CB72D5BE1D226DDF00B777F8 /* PostsDataStore.m */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		CB72D5C01D226DF100B777F8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D5C11D226DF100B777F8 /* PostsDataService.h */,
+				CB72D5C21D226DF100B777F8 /* PostsDataService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CB72D5C41D226DF800B777F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D5C51D226DF800B777F8 /* Comment.h */,
+				CB72D5C61D226DF800B777F8 /* Comment.m */,
+				CB72D5CB1D226DF800B777F8 /* User.h */,
+				CB72D5CC1D226DF800B777F8 /* User.m */,
+				CB72D5C71D226DF800B777F8 /* Post.h */,
+				CB72D5C81D226DF800B777F8 /* Post.m */,
+				CB72D5C91D226DF800B777F8 /* PostsDataInfo.h */,
+				CB72D5CA1D226DF800B777F8 /* PostsDataInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB72D5D11D226DFD00B777F8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D5D21D226DFD00B777F8 /* PostDetailViewController.h */,
+				CB72D5D31D226DFD00B777F8 /* PostDetailViewController.m */,
+				CB72D5D41D226DFD00B777F8 /* PostsViewController.h */,
+				CB72D5D51D226DFD00B777F8 /* PostsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB72D5D81D226E0600B777F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBBC41501D1E93BA00F4B112 /* Main.storyboard */,
+				CB72D5D91D226E0600B777F8 /* CustomActivityIndicarView.h */,
+				CB72D5DA1D226E0600B777F8 /* CustomActivityIndicarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB72D5DC1D226E5A00B777F8 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D5DD1D226E5A00B777F8 /* NetworkManager.h */,
+				CB72D5DE1D226E5A00B777F8 /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		CB83E6251D22F4330084681A /* test_data */ = {
+			isa = PBXGroup;
+			children = (
+				CB83E6261D22F4330084681A /* posts.json */,
+				CB83E6281D22F4470084681A /* users.json */,
+				CB83E62A1D22F4500084681A /* comments.json */,
+			);
+			path = test_data;
+			sourceTree = "<group>";
+		};
+		CB8851CC1D22E3A90026F263 /* BabylonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB83E6251D22F4330084681A /* test_data */,
+				CB8851CD1D22E3A90026F263 /* PostsDataServiceTests.m */,
+				CBA263421D23125600F4E375 /* PostsDataInfotests.m */,
+				CBA263461D231EB700F4E375 /* PostModelTests.m */,
+				CB8851CF1D22E3A90026F263 /* Info.plist */,
+			);
+			path = BabylonTestTests;
+			sourceTree = "<group>";
+		};
+		CBBC41381D1E93B900F4B112 = {
+			isa = PBXGroup;
+			children = (
+				CBBC41431D1E93BA00F4B112 /* BabylonTest */,
+				CB8851CC1D22E3A90026F263 /* BabylonTestTests */,
+				CBBC41421D1E93BA00F4B112 /* Products */,
+				9A21D322069328D35FD35164 /* Pods */,
+				18C897BD75F29DA65E9E920E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBBC41421D1E93BA00F4B112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBBC41411D1E93BA00F4B112 /* BabylonTest.app */,
+				CB8851CB1D22E3A90026F263 /* BabylonTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBBC41431D1E93BA00F4B112 /* BabylonTest */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D5B71D226DCC00B777F8 /* AppDelegate */,
+				CB72D5DC1D226E5A00B777F8 /* NetworkManager */,
+				CB72D5BC1D226DDF00B777F8 /* DataStore */,
+				CB72D5C01D226DF100B777F8 /* Service */,
+				CB72D5C41D226DF800B777F8 /* Model */,
+				CB72D5D81D226E0600B777F8 /* View */,
+				CB72D5D11D226DFD00B777F8 /* ViewController */,
+				CBBC41531D1E93BA00F4B112 /* Assets.xcassets */,
+				CBBC41551D1E93BA00F4B112 /* LaunchScreen.storyboard */,
+				CBBC41581D1E93BA00F4B112 /* Info.plist */,
+				CBBC41441D1E93BA00F4B112 /* Supporting Files */,
+			);
+			path = BabylonTest;
+			sourceTree = "<group>";
+		};
+		CBBC41441D1E93BA00F4B112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBC41451D1E93BA00F4B112 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8851CA1D22E3A90026F263 /* BabylonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8851D41D22E3A90026F263 /* Build configuration list for PBXNativeTarget "BabylonTestTests" */;
+			buildPhases = (
+				87D57FFC24FF17A1B9420396 /* 📦 Check Pods Manifest.lock */,
+				CB8851C71D22E3A90026F263 /* Sources */,
+				CB8851C81D22E3A90026F263 /* Frameworks */,
+				CB8851C91D22E3A90026F263 /* Resources */,
+				D4483F6923C00E51B0C4E125 /* 📦 Embed Pods Frameworks */,
+				E9118A59DFD43DED2CC7C302 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8851D11D22E3A90026F263 /* PBXTargetDependency */,
+			);
+			name = BabylonTestTests;
+			productName = BabylonTestTests;
+			productReference = CB8851CB1D22E3A90026F263 /* BabylonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBBC41401D1E93BA00F4B112 /* BabylonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBBC415B1D1E93BA00F4B112 /* Build configuration list for PBXNativeTarget "BabylonTest" */;
+			buildPhases = (
+				B3885BA48D3C4F37A4476064 /* 📦 Check Pods Manifest.lock */,
+				CBBC413D1D1E93BA00F4B112 /* Sources */,
+				CBBC413E1D1E93BA00F4B112 /* Frameworks */,
+				CBBC413F1D1E93BA00F4B112 /* Resources */,
+				4AE9682BB9E89A932E98A873 /* 📦 Embed Pods Frameworks */,
+				380412ADC08EAC72EF9AB227 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabylonTest;
+			productName = BabylonTest;
+			productReference = CBBC41411D1E93BA00F4B112 /* BabylonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBBC41391D1E93B900F4B112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tholeti Consultyancy Services";
+				TargetAttributes = {
+					CB8851CA1D22E3A90026F263 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CBBC41401D1E93BA00F4B112;
+					};
+					CBBC41401D1E93BA00F4B112 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CBBC413C1D1E93B900F4B112 /* Build configuration list for PBXProject "BabylonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBBC41381D1E93B900F4B112;
+			productRefGroup = CBBC41421D1E93BA00F4B112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBBC41401D1E93BA00F4B112 /* BabylonTest */,
+				CB8851CA1D22E3A90026F263 /* BabylonTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8851C91D22E3A90026F263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB83E6291D22F4470084681A /* users.json in Resources */,
+				CB83E6271D22F4330084681A /* posts.json in Resources */,
+				CB83E62B1D22F4500084681A /* comments.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBC413F1D1E93BA00F4B112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBC41571D1E93BA00F4B112 /* LaunchScreen.storyboard in Resources */,
+				CBBC41541D1E93BA00F4B112 /* Assets.xcassets in Resources */,
+				CBBC41521D1E93BA00F4B112 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		380412ADC08EAC72EF9AB227 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabylonTest/Pods-BabylonTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE9682BB9E89A932E98A873 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabylonTest/Pods-BabylonTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D57FFC24FF17A1B9420396 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3885BA48D3C4F37A4476064 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4483F6923C00E51B0C4E125 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabylonTestTests/Pods-BabylonTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9118A59DFD43DED2CC7C302 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabylonTestTests/Pods-BabylonTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8851C71D22E3A90026F263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA263471D231EB700F4E375 /* PostModelTests.m in Sources */,
+				CB8851CE1D22E3A90026F263 /* PostsDataServiceTests.m in Sources */,
+				CBA263431D23125600F4E375 /* PostsDataInfotests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBC413D1D1E93BA00F4B112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72D5D61D226DFD00B777F8 /* PostDetailViewController.m in Sources */,
+				CB72D5D01D226DF800B777F8 /* User.m in Sources */,
+				CB72D5BF1D226DDF00B777F8 /* PostsDataStore.m in Sources */,
+				CB72D5CE1D226DF800B777F8 /* Post.m in Sources */,
+				CB72D5DF1D226E5A00B777F8 /* NetworkManager.m in Sources */,
+				CB72D5DB1D226E0600B777F8 /* CustomActivityIndicarView.m in Sources */,
+				CB72D5C31D226DF100B777F8 /* PostsDataService.m in Sources */,
+				CB72D5BA1D226DCC00B777F8 /* AppDelegate.m in Sources */,
+				CB72D5CD1D226DF800B777F8 /* Comment.m in Sources */,
+				CBBC41461D1E93BA00F4B112 /* main.m in Sources */,
+				CB72D5D71D226DFD00B777F8 /* PostsViewController.m in Sources */,
+				CB72D5CF1D226DF800B777F8 /* PostsDataInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB8851D11D22E3A90026F263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBBC41401D1E93BA00F4B112 /* BabylonTest */;
+			targetProxy = CB8851D01D22E3A90026F263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBBC41501D1E93BA00F4B112 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBC41511D1E93BA00F4B112 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CBBC41551D1E93BA00F4B112 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBC41561D1E93BA00F4B112 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8851D21D22E3A90026F263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEBE5E48A1EED7E84DC3CA8 /* Pods-BabylonTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BabylonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.logger.test.BabylonTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabylonTest.app/BabylonTest";
+			};
+			name = Debug;
+		};
+		CB8851D31D22E3A90026F263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38561FF62E2CAEF67F8BC8FE /* Pods-BabylonTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BabylonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.logger.test.BabylonTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabylonTest.app/BabylonTest";
+			};
+			name = Release;
+		};
+		CBBC41591D1E93BA00F4B112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBBC415A1D1E93BA00F4B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBBC415C1D1E93BA00F4B112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8257ED30F4419835727D12 /* Pods-BabylonTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabylonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.babylon.test.BabylonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBBC415D1D1E93BA00F4B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF96A6831D830717BBEDCAD /* Pods-BabylonTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabylonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.babylon.test.BabylonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8851D41D22E3A90026F263 /* Build configuration list for PBXNativeTarget "BabylonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8851D21D22E3A90026F263 /* Debug */,
+				CB8851D31D22E3A90026F263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBBC413C1D1E93B900F4B112 /* Build configuration list for PBXProject "BabylonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBC41591D1E93BA00F4B112 /* Debug */,
+				CBBC415A1D1E93BA00F4B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBBC415B1D1E93BA00F4B112 /* Build configuration list for PBXNativeTarget "BabylonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBC415C1D1E93BA00F4B112 /* Debug */,
+				CBBC415D1D1E93BA00F4B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBBC41391D1E93B900F4B112 /* Project object */;
+}

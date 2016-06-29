@@ -1,0 +1,17 @@
+PODS:
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - OCMock (3.2.2)
+
+DEPENDENCIES:
+  - Mantle
+  - OCMock
+
+SPEC CHECKSUMS:
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
+
+PODFILE CHECKSUM: a0035f71554e544cf34b8cb7a89e51b0cbde184a
+
+COCOAPODS: 1.0.0
